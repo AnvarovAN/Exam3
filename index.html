@@ -13,9 +13,9 @@
   <div class="wrapper">
     <form action="" id="form">
       <h2 class="wrapper-title">Pizza order</h2>
-      <input class="inp" type="text" name="user_name" placeholder="user name" />
-      <input class="inp" type="tel" name="user_phone" placeholder="user phine number" />
-      <input class="inp" type="email" name="user_email" placeholder="user email" />
+      <input class="inp" type="text" name="user_name" required placeholder="user name" />
+      <input class="inp" type="tel" min="900000000" max="999999999" name="user_phone" required placeholder="user phone number" />
+      <input class="inp" type="email" name="user_email" placeholder="user email" required/>
 
       <div class="form-select-block">
         <label for="select" class="form-select-label">Dough thickness:</label>
